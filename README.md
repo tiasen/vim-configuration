@@ -1,3 +1,3 @@
 # vim-configuration
 
-### some vim configuration files about vim
+### some configuration files about vim
