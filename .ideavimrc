@@ -1,0 +1,17 @@
+source ~/.vimrc
+
+noremap gi :action GotoImplementation<CR>
+noremap gd :action GotoDeclaration<CR>
+noremap <Leader-r> :action Rename<CR>
+noremap ,fp :action FindInPath<CR>
+noremap ,se :action SearchEverywhere<CR>
+noremap ,fsp :action FileStructurePopup<CR>
+noremap ,fu :action FindUsages<CR>
+noremap ,mv :action RenameElement<CR>
+noremap == :action ReformatCode<CR>
+noremap =p :action ReformatWithPrettierAction<CR>
+noremap ,cf :action Find<CR>
+noremap ,cr :action Replace<CR>
+noremap ,cc :action $Copy<CR>
+noremap ,cx :action $Cut<CR>
+noremap ,cv :action $Paste<CR>
